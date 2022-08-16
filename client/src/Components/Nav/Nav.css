@@ -1,0 +1,30 @@
+.nav {
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 6px;
+    margin-right: 80%;
+    width: 140px;
+    background-color: transparent;
+}
+
+.crear {
+    background-color: rgb(250, 224, 77);
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.crear:hover{
+cursor: pointer;
+background-color: rgba(250, 77, 77, 0.336);
+color: white;
+}
+

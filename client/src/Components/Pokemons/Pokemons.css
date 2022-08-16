@@ -1,0 +1,46 @@
+.Pokemon {
+    background-image: url("https://cutewallpaper.org/22/pokemon-dark-minimalist-wallpapers/2318216939.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.Paginado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Num {
+    color: rgb(250, 224, 77);
+}
+
+.link {
+    width: 25rem;
+    height: 25rem;
+    text-decoration: none;
+    margin: 4rem;
+}
+
+select{
+    margin-right: 15px;
+    display: inline;
+    background-color: black;
+    color: rgb(250, 224, 77);
+    width: 120px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

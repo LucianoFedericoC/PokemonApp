@@ -1,0 +1,51 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid rgb(250, 224, 77);
+  border-radius: 25px;
+  background-color: transparent;
+  width: 25rem;
+  height: 25rem;
+  transition: 1s;
+  box-shadow: 13px 15px 15px rgba(250, 224, 77, 0.336);
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 380px;
+  max-height: 270px;
+}
+
+.Card:hover {
+  background-color: transparent;
+  transition: 1s;
+  padding-top: 1rem;
+  border: solid red;
+  box-shadow: 13px 15px 15px rgba(250, 77, 77, 0.336);
+}
+
+.nombre {
+  font-size: 20px;
+  color: #fff170da;
+}
+
+.tipo {
+  color: #fff170da;
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.listatype {
+  list-style: none;
+}
+
+.listatype img {
+  width: 20px;
+  height: 20px;
+}

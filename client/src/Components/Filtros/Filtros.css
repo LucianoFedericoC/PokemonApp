@@ -1,0 +1,17 @@
+.cont {
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+margin-top: 5px;
+}
+
+.filtros{
+    align-items: center;
+    background-color: transparent;
+}
+
+.orden {
+    width: 20%;
+    align-items: center;
+background-color: black;
+}

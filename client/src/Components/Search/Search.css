@@ -1,0 +1,31 @@
+.Div{
+width: 60%;
+
+}
+.Barra {
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: #eeeeee;
+    border: 1px solid rgb(250, 224, 77);
+    margin-top: 10px;
+    display: inline;
+    outline: none;
+    width: 50%;
+}
+
+.boton {
+
+display: inline;
+margin-top: 15px;
+border-radius: 5px;
+background-color: rgb(250, 224, 77);
+width: 60px;
+height: 25px;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: rgba(250, 77, 77, 0.336);
+    color: white
+}
+

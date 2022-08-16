@@ -1,0 +1,28 @@
+.numero {
+    margin-left: 10px;
+    align-items: center;
+    display: inline;
+    padding: 8px;
+    }
+
+.button {
+    background-color: rgb(250, 224, 77);;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.button:focus
+{outline:none }
+
+.button:hover {
+    cursor:pointer;
+    background-color: rgba(250, 77, 77, 0.336) ;
+    color: rgb(255, 255, 255)
+}
+
+.pag { 
+    padding: .5rem;
+}
